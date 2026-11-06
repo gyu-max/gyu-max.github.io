@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.gyumax.biblestoryot",
+        "sha256_cert_fingerprints": ["F5:EB:BA:72:67:C7:76:F1:63:E8:78:B3:DF:02:2E:1B:F1:9B:CE:5E:AD:F4:EF:03:B4:A5:C3:8C:25:7A:68:FB"]
+      }
+    }]
