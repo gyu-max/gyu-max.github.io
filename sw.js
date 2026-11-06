@@ -1,6 +1,6 @@
 // 오프라인에서도 실행되도록 게임 파일을 저장해 두는 간단한 서비스 워커
 const CACHE = 'bible-ot-v1';
-const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
+const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)));
